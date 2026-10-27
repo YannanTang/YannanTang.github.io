@@ -7,6 +7,6 @@ title: Yannan Tang Home
 	<h2>Associate Director, Biostatistics at <a href="https://www.corcept.com" target="_blank">Corcept Therapeutics</a></h2>
 	<h2>VP of Technology at <a href="https://www.bbsw.org" target="_blank">BBSW</a></h2>
 	<p>Biostatistician working across early- and late-phase clinical trials in oncology, immunology, ophthalmology and metabolism.</p>
-	{% assign latest = site.posts.first %}
+	{% assign latest = site.posts | where: "type", "blog" | first %}
 	<p>Latest post: <a href="{{ latest.url }}">{{ latest.title }}</a> ({{ latest.date | date_to_string }})</p>
 </div><!-- /.blurb -->

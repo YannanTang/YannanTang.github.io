@@ -2,6 +2,7 @@
 layout: post
 title: "Harry Kane, the Ballon d'Or, and Why We Bring Data"
 date: 2026-10-26
+type: blog
 ---
 
 *English · [中文](#chinese)*
